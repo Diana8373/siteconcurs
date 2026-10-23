@@ -1,0 +1,28 @@
+.Altele{
+    border:solid rgb(84, 47, 47);
+    background:rgb(107, 60, 60);
+    border-radius:20px;
+    display:flex;
+    flex-direction:row;
+    width:800px;
+    height:450px;
+    margin-top:150px;
+    box-shadow:10px 10px 20px rgb(210, 130, 130);
+    margin-left: 140px;
+    text-align:right;
+}
+.Info{
+    font-size:15px;
+}
+
+.pozatest{
+    width:350px;
+    height:350px;
+    margin-left:40px;
+    margin-top:40px;
+}
+.Altele:hover{
+    box-shadow:10px 10px 30px rgb(211, 135, 135);
+    width:820px;
+    height:470px;
+}

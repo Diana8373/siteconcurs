@@ -1,0 +1,12 @@
+.Subiecte{
+    display:flex;
+    flex-direction:row;
+    background-color:rgb(107, 60, 60);
+    width:2550px;
+    height:90px;
+    justify-content: center;
+}
+.optiuni{
+    margin-left:100px;
+    margin-right:100px;
+}
