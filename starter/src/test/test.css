@@ -1,50 +1,78 @@
-.header{
-    background-color:lightblue;
-    align-items:center;
-    padding:30px;
+.header {
+    background-color: lightblue;
+    align-items: center;
+    padding: 1.17vw;
+    height: 40vh;
     box-shadow: 0px 20px 50px lightgrey;
 }
-.label{
-    display:flex;
-    flex-direction:column;
-    background-color:white;
-    border:3px solid white;
+
+.label {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: 3px solid white;
     border-top-right-radius: 100px;
-    text-align:left;
-    width:40%;
-    position:relative;
-    left:30%;
-}
-.tot3{
-    width:1500px;
-    align-items:center;
-    text-align:left;
+    text-align: left;
+    width: 43vw;
+    height: 38vh;
     position: relative;
-    left: 530px;
-    margin-top:30px;
+    left: 30vw;
 }
-body{
-    background-color:white;
+
+.tot3 {
+    width: 59vw;
+    align-items: center;
+    text-align: left;
+    position: relative;
+    left: 20.8vw;
+    margin-top: 1.17vw;
 }
-.b2{
-    background-color:white;
-    text-align:left;
+
+body {
+    background-color: white;
 }
-.paragraf{
-    font-size: 25px;
-    margin-top: 20px;
-    margin-right: 20px;
-    line-height:1.5;
-    color:black;
+
+.b2 {
+    background-color: white;
+    text-align: left;
 }
-.paragraf:hover{
-color:black;
-font-weight: bold;
+
+.paragraf {
+    font-size: 1.5vw;
+    margin-top: 0.8vw;
+    margin-right: 0.8vw;
+    line-height: 1.5;
+    color: black;
 }
-.modelbigfive{
-    background-color:lightblue;
+
+.paragraf:hover {
+    color: black;
+    font-weight: bold;
+}
+
+.modelbigfive {
+    background-color: lightblue;
     border: 3px lightblue;
-    border-radius:30px;
-    padding:10px;
-    width:85%
+    border-radius: 30px;
+    padding: 1vw;
+    width: 100%;
+    margin-bottom: 3vw;
+}
+
+.b5 {
+    width: 40vw;
+    height: 20vh;
+    margin-top: 3.5vw;
+    position:relative;
+    left:3vw;
+    text-align: center;
+    font-size:3vw;
+    border-radius:20px;
+    border: 2px solid black;
+    background-color:white;
+    color: black;
+}
+.b5:hover{
+    cursor:pointer;
+    border:1px solid black;;
 }

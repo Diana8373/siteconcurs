@@ -4,11 +4,11 @@
     border-radius:20px;
     display:flex;
     flex-direction:row;
-    width:800px;
-    height:450px;
-    margin-top:150px;
+    width:31.4vw;
+    height:16vw;
+    margin-top:5.9vw;
     box-shadow:10px 10px 20px rgb(210, 130, 130);
-    margin-right:140px;
+    margin-left: 5.8vw;
     text-align:left;
 }
 .Info{
@@ -16,13 +16,13 @@
 }
 
 .pozatest{
-    width:350px;
-    height:350px;
-    margin-right:40px;
-    margin-top:40px;
+    width:13.7vw;
+    height:13.7vw;
+    margin-left:1.56vw;
+    margin-top:1.56vw;
 }
 .Test:hover{
     box-shadow:10px 10px 30px rgb(211, 135, 135);
-    width:820px;
-    height:470px;
+    width:33vw;
+    height:18vw;
 }

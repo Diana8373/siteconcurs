@@ -6,7 +6,7 @@ function Test() {
             <Bar />
             <div className="header">
                 <div className="label">
-                    <h1>Test de personalitate</h1>
+                    <h1 className="titlu">Test de personalitate</h1>
                     <p className="paragrafe">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda atque est iure mollitia exercitationem, praesentium obcaecati repudiandae voluptas alias ratione sequi ipsum odio fuga iusto laboriosam, eum illo soluta minus.</p>
                 </div>
             </div>
@@ -26,6 +26,9 @@ function Test() {
                     </ul>
                     <p className="paragrafe">Dintre acestea cinci, cele care pot avea un efect direct asupra sunt neuroticismul, extraversiunea si conștiinciozitatea. Mai intai, neuroticismul, dupa cum este mentionat si in definitie, te face mai predispus emotiilor negative printre care se numara si stresul si ingrijorarea. Acestea doua duc mai apoi la anxietate, mai multe lucruri ajungand sa reprezinte un posibil pericol. Pe urma, un nivel scazut de extroversiune poate face ca un individ sa nu si poate gestiona cum trebuie emotiile, evitand a le comunica cu altcineva, sau sa fie mai predispus anxietatii sociale, interactiunile cu alti reprezentand ceva neplacut. Nu in ultimul rand, un grad scazut de conștiinciozitate te poate determina sa urmezi metode de gestionare a emotiilor intr-un mod mai putin eficient sau sa fii mai impulsiv emotional  </p>
                 </div>
+            </div>
+            <div className="header">
+                    <button className="b5">Afla cat de predispus esti anxietatii!</button>
             </div>
         </>
     )

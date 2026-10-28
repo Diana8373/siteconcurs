@@ -1,24 +1,36 @@
 import Bar from '../searchbar/bar.jsx'
 import poza1 from '../assets/hero.png'
 import './info.css'
+function Def() {
+  document.getElementById("ce-este")?.scrollIntoView(
+    {behavior:"smooth"}
+  )
+}
+function Copii() {
+  document.getElementById("la-copii")?.scrollIntoView(
+    {behavior:"smooth"}
+  )
+}
 function Info() {
     return (
         <>
             <Bar />
             <div className="tot2">
-                <h1>Intelegerea si abordarea anxietatii la copii</h1>
+                <div className="sus1">
+                    <h1 className="titlu">Intelegerea si abordarea anxietatii la copii</h1>
+                </div>
                 <div className="continut">
                     <div className="tableofcontents">
                         <p className="paragrafe">Table of contents</p>
                         <ul>
-                            <li>Ce este anxietatea?</li>
-                            <li>Anxietatea la copii</li>
+                            <li onClick={Def}>Ce este anxietatea?</li>
+                            <li onClick={Copii}>Anxietatea la copii</li>
                             <li>Tipuri de anxietati infantile</li>
                             <li>Cauze</li>
                         </ul>
                     </div>
                     <div className="text">
-                        <h2>Ce este anxietatea?</h2>
+                        <h2 id="ce-este">Ce este anxietatea?</h2>
                         <p className="paragrafe">Anxietatea reprezinta o stare de stres, de îngrijorare, la perceperea unui posibil pericol. Aceasta poate fi utila in multe cazuri, determinandu-te sa fi mai vigilent, sa iei decizii sau sa actionezi intr-un anumit fel, insa in cantitati excesive poate sa aiba chiar efectul opus. In loc sa te facă sa fii mai eficient ajungi sa te blochezi si sa nu mai poti fucntiona normal in viata de zi cu zi din teama de a face un pas gresit.</p>
                         <table className="tabelefecte">
                             <tr>
@@ -46,7 +58,7 @@ function Info() {
                                 <td>-probleme cu somnul</td>
                             </tr>
                         </table>
-                        <h2>Anxietatea la copii</h2>
+                        <h2 id="la-copii">Anxietatea la copii</h2>
                         <p className="paragrafe">-a fost diagnosticata formal abia in a doua jumatate a secolului XX
                             Problema: adultii din viata copilului nu abordeaza situatie din timp sau intr-un mod eficient
                             →copilul nu are abilitatile verbale sua intelgerea necesara pentru a ne explica ce se intampla asa ca e foarte important sa avem cunostinte legate de manifestarea anxietatii la copii pentru a reprezenta un sprijin pentru ei + sa ii invatam sa iti gestioneze sentimentele

@@ -2,11 +2,14 @@
     display:flex;
     flex-direction:row;
     background-color:rgb(107, 60, 60);
-    width:2550px;
-    height:90px;
+    width:100vw;
+    height:7vh;
     justify-content: center;
 }
-.optiuni{
-    margin-left:100px;
-    margin-right:100px;
+.link{
+    margin-left:4vw;
+    margin-right:4vw;
+    text-decoration:none;
+    cursor:pointer;
+    font-style:normal;
 }

@@ -8,14 +8,14 @@ function Wel() {
         <div className="tot">
             <Bar/>
             <div className="sus">
-                <h1>Dezvoltarea si manifestarea anxietatii la copii</h1>
+                <h1 className="titlu">Dezvoltarea si manifestarea anxietatii la copii</h1>
                 <div className="descriere">
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium dolore dicta aliquid dolor, rem quam rerum fugit deleniti illum. Ex dolore exercitationem consectetur recusandae qui numquam, magnam perspiciatis libero atque.</p>\
-                    <Link to="/info"><button className="b1">Afla mai multe</button></Link>
+                    <Link to="/info" className="link"><button className="b1">Afla mai multe</button></Link>
                 </div>
             </div>
             <div className="anunturi">
-                <Anunt1></Anunt1>
+                <Link to="/test" className="link"><Anunt1/></Link>
                 <Anunt2></Anunt2>
             </div>
         </div >

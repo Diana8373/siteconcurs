@@ -3,9 +3,9 @@ import {Link} from "react-router-dom"
 function Bar() {
     return (
         <div className="Subiecte">
-            <Link to="/welcomepage"><p className="optiuni">Home</p></Link>
-            <Link to="/info"><p className="optiuni">Info</p></Link>
-            <p className="optiuni">Test</p>
+            <Link to="/welcomepage" className="link"><p>Home</p></Link>
+            <Link to="/info" className="link"><p>Info</p></Link>
+            <Link to="/test" className="link"><p>Test</p></Link>
             <p className="optiuni">Arta</p>
             <p className="optiuni">Tehno</p>
         </div>
