@@ -88,9 +88,9 @@ h2 {
   line-height: 118%;
   text-align:left;
   color:black;
-  margin-left:0.4vw;
   margin-top:0px;
   margin-bottom:0px;
+  margin-left:0.4vw;
   letter-spacing: -0.24px;
   @media (max-width: 1024px) {
     font-size: 20px;
