@@ -13,8 +13,12 @@ function Scoala(){
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt aut, ipsam ipsum laudantium iure sapiente aspernatur fugiat nihil at vitae ipsa dignissimos facere, modi voluptatum. Quas similique nulla harum voluptatum.</p>
             <h2>Cum ne putem implica?</h2>
             <div className="solutii1">
-                <div className="solutie"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut maxime aliquid a, aliquam rerum sunt hic cupiditate magnam. Unde odit aperiam omnis facere odio aliquid, adipisci dolore nulla dicta modi.</p></div>
-                <div className="solutie"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos asperiores officia adipisci molestiae vitae similique officiis esse magni, dolores sequi hic optio distinctio illo. Pariatur recusandae nihil unde incidunt deserunt.</p></div>
+                <div className="solutie"><p className="paragraf">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut maxime aliquid a, aliquam rerum sunt hic cupiditate magnam. Unde odit aperiam omnis facere odio aliquid, adipisci dolore nulla dicta modi.</p></div>
+                <div className="solutie"><p className="paragraf">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos asperiores officia adipisci molestiae vitae similique officiis esse magni, dolores sequi hic optio distinctio illo. Pariatur recusandae nihil unde incidunt deserunt.</p></div>
+            </div>
+            <div className="solutii1">
+                <div className="solutie"><p className="paragraf">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut maxime aliquid a, aliquam rerum sunt hic cupiditate magnam. Unde odit aperiam omnis facere odio aliquid, adipisci dolore nulla dicta modi.</p></div>
+                <div className="solutie"><p className="paragraf">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos asperiores officia adipisci molestiae vitae similique officiis esse magni, dolores sequi hic optio distinctio illo. Pariatur recusandae nihil unde incidunt deserunt.</p></div>
             </div>
         </div>
         </>
