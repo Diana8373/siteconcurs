@@ -1,5 +1,7 @@
 .sus4{
     width:100%;
+    display:flex;
+    flex-direction:row;
     height:50vh;
     background-color:lightblue;
 }
@@ -12,6 +14,14 @@
 .antet h1{
     margin-top:30vh;
     margin-right:1vw;
+}
+.poza5{
+    background-image:url(C:\Users\FRO\Documents\Website\starter\src\assets\Staples_High_School,_Westport,_CT.jpg);
+    border: 1px solid black;
+    width:60%;
+    height:50vh;
+    background-size:cover;
+    background-blend-mode:color-burn;
 }
 .tot4{
     width: 70vw;
@@ -28,7 +38,9 @@
 }
 .tot4 h2{
     margin-top:5vh;
-    font-size:4vw;
+    font-size:3.5vw;
+    position:relative;
+    right:10vw;
 }
 .solutii1{
     display:flex;
@@ -44,9 +56,22 @@
     text-align:left;
     padding:1vw;
     margin-top: 4vh;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function:ease;
 }
 .solutie:hover{
 width:37%;
 height:40vh;
 box-shadow: 4px 2px 6px grey;
+}
+.stiaica{
+    width:70vw;
+    height:30vh;
+    background-color:lightblue;
+    border-radius:20px;
+    margin-top:4vh;
+    position:relative;
+    left:13vw;
+    text-align:left;
 }
