@@ -1,19 +1,5 @@
 import './scoala.css'
 import Bar from '../searchbar/bar.jsx'
-function Largim() {
-    var elements = document.getElementsByClassName("solutie");
-    for (let i=0; i<elements.length;i++){
-        elements[i].classList.toggle("prelungire");
-    }
-    var informatie=document.getElementsByClassName("briefing");
-        for (let i=0; i<informatie.length;i++){
-            if(elements[i].className==="solutie"){
-                informatie[i].style.display="none";
-            }else{
-                informatie[i].style.display="block";
-            }
-        }
-}
 function Scoala() {
     return (
         <>
@@ -31,37 +17,36 @@ function Scoala() {
                 <p className="paragrafe">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt aut, ipsam ipsum laudantium iure sapiente aspernatur fugiat nihil at vitae ipsa dignissimos facere, modi voluptatum. Quas similique nulla harum voluptatum.</p>
                 <h2>Cum ne putem implica?</h2>
                 <div className="solutii">
-                    <button className="b6"><p>Inainte</p></button>
-                    <div className="solutie" onClick={Largim}>
-                        <div className="fatada">
-                            <div className="solution1"></div>
-                            <p className="paragraf">Lorem Ipsum</p>
+                    <div className="solutie">
+                        <div className="randomphoto"></div>
+                        <div className="solution">
+                            <h2>Lorem Ipsum</h2>
+                            <p className="paragrafe">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus aut corrupti autem eligendi veniam qui ad iste tempora assumenda quisquam hic deserunt laudantium architecto quam ipsam reiciendis in, tempore temporibus.</p>
                         </div>
-                        <p className="briefing">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum facilis est, doloribus reprehenderit corrupti tempore libero harum veniam porro maxime repellat, quaerat aliquid odit aliquam exercitationem iste, accusantium rem quidem?</p>
                     </div>
-                    <div className="solutie" onClick={Largim}>
-                        <div className="fatada">
-                            <div className="solution1"></div>
-                            <p className="paragraf">Lorem Ipsum</p>
+                    <div className="solutie">
+                        <div className="solution">
+                            <h2>Lorem Ipsum</h2>
+                            <p className="paragrafe">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus aut corrupti autem eligendi veniam qui ad iste tempora assumenda quisquam hic deserunt laudantium architecto quam ipsam reiciendis in, tempore temporibus.</p>
                         </div>
-                        <p className="briefing">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum facilis est, doloribus reprehenderit corrupti tempore libero harum veniam porro maxime repellat, quaerat aliquid odit aliquam exercitationem iste, accusantium rem quidem?</p>
+                         <div className="randomphoto"></div>
                     </div>
-                    <div className="solutie" onClick={Largim}>
-                        <div className="fatada">
-                            <div className="solution1"></div>
-                            <p className="paragraf">Lorem Ipsum</p>
+                    <div className="solutie">
+                        <div className="randomphoto"></div>
+                        <div className="solution">
+                            <h2>Lorem Ipsum</h2>
+                            <p className="paragrafe">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus aut corrupti autem eligendi veniam qui ad iste tempora assumenda quisquam hic deserunt laudantium architecto quam ipsam reiciendis in, tempore temporibus.</p>
                         </div>
-                        <p className="briefing">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum facilis est, doloribus reprehenderit corrupti tempore libero harum veniam porro maxime repellat, quaerat aliquid odit aliquam exercitationem iste, accusantium rem quidem?</p>
                     </div>
-                    <div className="solutie" onClick={Largim}>
-                        <div className="fatada">
-                            <div className="solution1"></div>
-                            <p className="paragraf">Lorem Ipsum</p>
+                    <div className="solutie">
+                        <div className="solution">
+                            <h2>Lorem Ipsum</h2>
+                            <p className="paragrafe">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus aut corrupti autem eligendi veniam qui ad iste tempora assumenda quisquam hic deserunt laudantium architecto quam ipsam reiciendis in, tempore temporibus.</p>
                         </div>
-                        <p className="briefing">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum facilis est, doloribus reprehenderit corrupti tempore libero harum veniam porro maxime repellat, quaerat aliquid odit aliquam exercitationem iste, accusantium rem quidem?</p>
+                         <div className="randomphoto"></div>
                     </div>
-                    <button className="b6"><p>Dupa</p></button>
                 </div>
+                <div className="final"><p className="paragrafe">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis minima accusamus, ad hic, animi, similique libero sapiente dolorem quaerat eum error expedita distinctio? Cupiditate dignissimos eveniet debitis velit architecto qui.</p></div>
             </div>
         </>
     )

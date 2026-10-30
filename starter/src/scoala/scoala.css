@@ -14,7 +14,7 @@
 }
 
 .antet h1 {
-    margin-top: 30vh;
+    margin-top:27vh;
     margin-right: 1vw;
 }
 
@@ -53,61 +53,43 @@
 
 .solutii {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     margin-top: 4vh;
 }
-
-.b6 {
-    margin-top: 23vh;
-    width: 7vw;
-    height: 6vh;
+.solutie{
+    display:flex;
+    flex-direction:row;
+    height:70vh;
+    width:100%;
+    margin-top:0px;
 }
-
-.solutie {
-    display: flex;
-    flex-direction: row;
-    background-color: lightblue;
-    width: 20vw;
-    height: 50vh;
-    border-radius: 20px;
-    margin-right: 20vw;
-    margin-left: 20vw;
-    transition-property: all;
+.randomphoto{
+    width:40%;
+    height:56vh;
+    margin-right:2vw;
+    background-color:lightblue;;
+}
+.solution{
+    background-color:lightblue;
+    border:1px solid black;
+    border-radius:20px;
+    height:46vh;
+    width:60%;
+    margin-right:3vw;
+    padding:2vw;
     transition-duration: 0.5s;
-    transition-timing-function: ease;
+    transition-property: all;
+    transition-timing-function: ease-out;
 }
-
-.solutie.prelungire {
-    background-color: lightblue;
-    width: 40vw;
-    height: 50vh;
-    border-radius: 20px;
-    margin-right: 10vw;
-    margin-left: 10vw;
-}
-
-.solution1 {
-    height: 60%;
-    width: 100%;
-    background-image: url(C:\Users\FRO\Documents\Website\starter\src\assets\background1.PNG);
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-}
-
-.fatada {
-    background-color: lightblue;
-    width: 20vw;
-    height: 50vh;
-    border-radius: 20px;
-    border: 1px solid black;
+.solution:hover{
+    width:65%;
+    height:50vh;
     box-shadow: 1px 2px 6px grey;
+    font-weight:bold;
+}
+.final{
+    background-color:lightsteelblue;
+    border: 1px solid lightblue;
+    padding:1vw;
 }
 
-.briefing {
-    width:20vw;;
-    font-size: 1.6vw;
-    transition-property:all;
-    transition-delay:0.5s;
-    margin-top:5vh;
-    margin-left:1vw;
-}
