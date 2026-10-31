@@ -1,9 +1,9 @@
-.header {
+.sus3 {
     background-color: lightblue;
-    align-items: center;
     padding: 1.17vw;
-    height: 40vh;
+    height: 45vh;
     box-shadow: 0px 20px 50px lightgrey;
+    justify-items: center;
 }
 
 .label {
@@ -15,8 +15,7 @@
     text-align: left;
     width: 43vw;
     height: 38vh;
-    position: relative;
-    left: 30vw;
+    padding: 1vw;
 }
 
 .tot3 {
@@ -44,7 +43,7 @@ body {
     line-height: 1.5;
     color: black;
     transition-property: all;
-    transition-duration:0.5s;
+    transition-duration: 0.5s;
     transition-timing-function: ease;
 }
 
@@ -62,20 +61,36 @@ body {
     margin-bottom: 3vw;
 }
 
-.b5 {
+#b5 {
     width: 40vw;
     height: 20vh;
     margin-top: 3.5vw;
-    position:relative;
-    left:3vw;
     text-align: center;
-    font-size:3vw;
-    border-radius:20px;
+    font-size: 3vw;
+    border-radius: 20px;
     border: 2px solid black;
-    background-color:white;
+    background-color: white;
     color: black;
 }
-.b5:hover{
-    cursor:pointer;
-    border:1px solid black;;
+
+#b5:hover {
+    cursor: pointer;
+    border: 1px solid black;
+    ;
+}
+
+.label .paragrafe {
+    margin-top: 0.5vh;
+    margin-bottom: 1vh;
+}
+
+#button {
+    font-size: 1.2vw;
+    font-style: italic;
+    text-decoration-line: underline;
+}
+
+#button:hover {
+    color: rgb(139, 169, 196);
+    cursor: pointer;
 }

@@ -1,0 +1,52 @@
+.sus5{
+    justify-items:center;
+    width:100%;
+    height:50vh;
+    background-image:url(C:\Users\FRO\Documents\Website\starter\src\assets\iPadkid.png);
+    background-size:cover;
+    filter:brightness(50%);
+}
+.sus5 .titlu{
+width:60%;
+position:relative;
+top:10vh;
+filter:brightness(100%);
+color:white;
+}
+.tot5{
+    width:100%;
+    height:fit-content;
+    justify-items: center; 
+    background-color:lightcyan;
+}
+.tot5text{
+    width:60vw;
+    height:fit-content;
+    text-align:left;
+    background-color:white;
+    padding:1vw;
+    border-left: 2px solid lightblue;
+    border-right: 2px solid lightblue;
+}
+.listatehno{
+    font-size:1.5vw;
+    color:black;
+    background-color: lightcyan;
+    border: 2px solid black;
+    box-shadow: 1px 2px 6px grey;
+}
+.listatehno li{
+    padding:0.8vw;
+    line-height: 1.5;
+}
+.randrasp{
+    display:flex;
+    width:100%;
+    padding:2vh;
+    flex-direction:row;
+    justify-items:center;
+}
+.recunoastere{
+    height:fit-content;
+    width:30%;
+}

@@ -29,7 +29,7 @@
     width: 23.33%;
     margin: 0.8vw;
     position: sticky;
-    top:0px;
+    top:2vh;
 }
 
 body {
@@ -44,12 +44,12 @@ body {
     line-height:1.5;
 }
 
-li:hover {
+.tableofcontents li:hover {
     color: lightblue;
     cursor:pointer;
 }
 
-ul {
+.tableofcontents ul {
     font-size: 1vw;
     color: grey;
 }
