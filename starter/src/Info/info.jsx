@@ -2,23 +2,23 @@ import Bar from '../searchbar/bar.jsx'
 import poza1 from '../assets/hero.png'
 import './info.css'
 function Def() {
-  document.getElementById("ce-este")?.scrollIntoView(
-    {behavior:"smooth"}
-  )
+    document.getElementById("ce-este")?.scrollIntoView(
+        { behavior: "smooth" }
+    )
 }
 function Copii() {
-  document.getElementById("la-copii")?.scrollIntoView(
-    {behavior:"smooth"}
-  )
+    document.getElementById("la-copii")?.scrollIntoView(
+        { behavior: "smooth" }
+    )
 }
 function Info() {
     return (
         <>
             <Bar />
+            <div className="sus1">
+                <h1 className="titlu">Intelegerea si abordarea anxietatii la copii</h1>
+            </div>
             <div className="tot2">
-                <div className="sus1">
-                    <h1 className="titlu">Intelegerea si abordarea anxietatii la copii</h1>
-                </div>
                 <div className="continut">
                     <div className="tableofcontents">
                         <p className="paragrafe">Table of contents</p>

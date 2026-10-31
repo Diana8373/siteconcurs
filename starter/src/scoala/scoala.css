@@ -4,7 +4,7 @@
     flex-direction: row;
     height: 50vh;
     background-color: white;
-    border-bottom:1px solid black
+    border-bottom: 1px solid black;
 }
 
 .antet {
@@ -15,7 +15,7 @@
 }
 
 .antet h1 {
-    margin-top:27vh;
+    margin-top: 27vh;
     margin-right: 1vw;
 }
 
@@ -24,16 +24,17 @@
     width: 60%;
     height: 50vh;
     background-size: cover;
-    filter:brightness(50%);
+    filter: brightness(50%);
 }
 
 .tot4 {
     width: 100%;
-    height:fit-content;
-    background-color:lightblue;
+    height: fit-content;
+    background-color: lightblue;
     justify-items: center;
 }
-.tot4text{
+
+.tot4text {
     width: 60vw;
     align-items: left;
     text-align: left;
@@ -44,6 +45,7 @@
     box-shadow: 0px 0px 5px grey;
     justify-content: center;
 }
+
 .stiaica {
     width: 93%;
     height: 30vh;
@@ -54,54 +56,54 @@
     padding: 2vw;
     margin-bottom: 2vh;
     border: 1px solid black;
-    transition-property: all;
-    transition-duration: 0.5s;
-}
-.stiaica:hover{
-    width: 95%;
-    height: 34vh;
-    box-shadow: 1px 2px 5px grey;
 }
 
-.solutii {
+.coloana {
     display: flex;
     flex-direction: column;
-    margin-top: 4vh;
 }
-.solutie{
-    display:flex;
-    flex-direction:row;
-    height:70vh;
-    width:100%;
-    margin-top:0px;
+
+.rand {
+    display: flex;
+    flex-direction: row;
+    width: 60vw;
+    height: fit-content;
 }
-.randomphoto{
-    width:40%;
-    height:56vh;
-    margin-right:2vw;
-    background-color:lightblue;;
-}
-.solution{
-    background-color:lightblue;
-    border:1px solid black;
-    border-radius:20px;
-    height:46vh;
-    width:60%;
-    margin-right:3vw;
-    padding:2vw;
+
+.solutie {
+    background-color: lightblue;
+    border-radius: 20px;
+    padding: 2vh;
+    margin-top:1vh;
+    margin-bottom:1vh;
+    margin-right:0.5vw;
+    margin-left:0.5vw;
     transition-duration: 0.5s;
     transition-property: all;
     transition-timing-function: ease-out;
 }
-.solution:hover{
-    width:65%;
-    height:50vh;
+.solutie:hover{
     box-shadow: 1px 2px 6px grey;
+    width:33vw;
     font-weight:bold;
 }
-.final{
-    background-color:lightsteelblue;
-    border: 1px solid lightblue;
-    padding:1vw;
+
+#solutie1 {
+    width: 30vw;
 }
 
+#solutie2 {
+    width: 30vw;
+    height: 50%;
+}
+
+#solutie3 {
+    width: 30vw;
+    height: 50%;
+}
+#solutie4 {
+    width: 30vw;
+}
+#solutie5 {
+    width: 30vw;
+}
