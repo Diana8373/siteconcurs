@@ -94,3 +94,8 @@ table.tabelefecte td {
     margin-left:3vw;
     width:50%;
 }
+
+.lucruri3{
+display:flex;
+flex-direction:column;
+}
