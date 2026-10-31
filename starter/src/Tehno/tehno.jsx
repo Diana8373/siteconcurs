@@ -12,7 +12,7 @@ function Tehno() {
                     <p className="paragrafe">INTRODUCERE: Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid eveniet obcaecati dicta adipisci labore quidem delectus cumque molestias nulla, ad laboriosam eaque, exercitationem temporibus autem maxime eligendi. Et, cupiditate eveniet?</p>
                     <h2>Statistici</h2>
                     <p className="paragrafe">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam explicabo alias quaerat, odit cupiditate ipsum dolorum, blanditiis, assumenda impedit provident dolorem doloremque! Quae tempora atque, excepturi eveniet mollitia inventore non.</p>
-                    <ul className="listatehno">
+                    <ul>
                         <li>Lorem Ipsum</li>
                         <li>Lorem Ipsum</li>
                         <li>Lorem Ipsum</li>
@@ -31,14 +31,22 @@ function Tehno() {
                     <h2>Cum recunoastem aceste probleme?</h2>
                     <p className="paragrafe">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate perferendis illo dignissimos esse neque, optio facilis aspernatur soluta voluptates cum laboriosam vitae beatae nemo laborum illum, repellendus facere. Libero, hic.</p>
                     <div className="randrasp">
-                        <div className="recunostere"><p className="paragraf">Lorem Ipsum</p></div>
-                        <div className="recunostere"><p className="paragraf">Lorem Ipsum</p></div>
-                        <div className="recunostere"><p className="paragraf">Lorem Ipsum</p></div>
+                        <div className="recunoastere"><p className="paragrafe">Lorem Ipsum</p></div>
+                        <div className="recunoastere"><p className="paragrafe">Lorem Ipsum</p></div>
+                        <div className="recunoastere"><p className="paragrafe">Lorem Ipsum</p></div>
                     </div>
                     <div className="randrasp">
-                        <div className="recunostere"><p className="paragraf">Lorem Ipsum</p></div>
-                        <div className="recunostere"><p className="paragraf">Lorem Ipsum</p></div>
+                        <div className="recunoastere"><p className="paragrafe">Lorem Ipsum</p></div>
+                        <div className="recunoastere"><p className="paragrafe">Lorem Ipsum</p></div>
                     </div>
+                    <h2>Ce trebuie sa schimbam?</h2>
+                    <p className="paragrafe">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam explicabo alias quaerat, odit cupiditate ipsum dolorum, blanditiis, assumenda impedit provident dolorem doloremque! Quae tempora atque, excepturi eveniet mollitia inventore non.</p>
+                    <ul className="listatehno">
+                        <li>Lorem Ipsum</li>
+                        <li>Lorem Ipsum</li>
+                        <li>Lorem Ipsum</li>
+                        <li>Lorem Ipsum</li>
+                    </ul>
                 </div>
             </div>
         </>

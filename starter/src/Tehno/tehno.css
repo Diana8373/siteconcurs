@@ -1,52 +1,84 @@
-.sus5{
-    justify-items:center;
-    width:100%;
-    height:50vh;
-    background-image:url(C:\Users\FRO\Documents\Website\starter\src\assets\iPadkid.png);
-    background-size:cover;
-    filter:brightness(50%);
+.sus5 {
+    justify-items: center;
+    width: 100%;
+    height: 50vh;
+    background-image: url(C:\Users\FRO\Documents\Website\starter\src\assets\iPadkid.png);
+    background-size: cover;
+    filter: brightness(50%);
 }
-.sus5 .titlu{
-width:60%;
-position:relative;
-top:10vh;
-filter:brightness(100%);
-color:white;
+
+.sus5 .titlu {
+    width: 60%;
+    position: relative;
+    top: 10vh;
+    filter: brightness(100%);
+    color: white;
 }
-.tot5{
-    width:100%;
-    height:fit-content;
-    justify-items: center; 
-    background-color:lightcyan;
+
+.tot5 {
+    width: 100%;
+    height: fit-content;
+    justify-items: center;
+    background-color: lightcyan;
 }
-.tot5text{
-    width:60vw;
-    height:fit-content;
-    text-align:left;
-    background-color:white;
-    padding:1vw;
-    border-left: 2px solid lightblue;
-    border-right: 2px solid lightblue;
+
+.tot5text {
+    width: 60vw;
+    height: fit-content;
+    text-align: left;
+    background-color: white;
+    padding: 1vw;
+    box-shadow: 0px 4px 10px grey;
 }
-.listatehno{
-    font-size:1.5vw;
-    color:black;
+
+.listatehno {
+    font-size: 1.5vw;
+    color: black;
     background-color: lightcyan;
     border: 2px solid black;
     box-shadow: 1px 2px 6px grey;
 }
-.listatehno li{
-    padding:0.8vw;
+
+.listatehno li {
+    padding: 0.8vw;
     line-height: 1.5;
 }
-.randrasp{
-    display:flex;
-    width:100%;
-    padding:2vh;
-    flex-direction:row;
-    justify-items:center;
+
+.randrasp {
+    display: flex;
+    width: 100%;
+    padding: 2vh;
+    flex-direction: row;
+    justify-content: center;
 }
-.recunoastere{
-    height:fit-content;
+
+.recunoastere {
+    height: fit-content;
+    width: 27%;
+    background-color: lightcyan;
+    border-radius: 20px;
+    padding: 1vh;
+    text-align: left;
+    margin-left:1vw;
+    border: 1px solid black;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
+}
+.recunoastere:hover{
     width:30%;
+    height:fit-content;
+    box-shadow: 1px 2px 7px grey;
+    font-weight:bold;
+}
+.randrasp .paragrafe{
+    margin-bottom: 0px;
+    margin-top:0px;
+}
+.tot5text ul{
+    font-size: 1.5vw;
+    color: black;
+}
+.tot5text ul li{
+    line-height: 1.5;
 }
