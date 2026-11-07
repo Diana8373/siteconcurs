@@ -6,16 +6,23 @@
     background: linear-gradient(0.50turn, lightblue, lightcyan, lightblue);
     justify-content: center;
 }
-
-.lucruri3 {
+.spate{
     width: 25vw;
     height: fit-content;
     border: 2px solid lightgrey;
     border-radius: 20px;
-    background: white;
+    background: pink;
     box-shadow: inset 0px 0px 50px lightgrey;
     position: relative;
     top: 18%;
+}
+.lucruri3 {
+    width: 100%;
+    height: 100%;
+    border: 2px solid lightgrey;
+    border-radius: 20px;
+    background: white;
+    box-shadow: inset 0px 0px 50px lightgrey;
     justify-content: center;
     align-items: center;
     padding: 1vw;
@@ -46,7 +53,7 @@
 }
 
 
-#aldoilea {
+#aldoileabg {
     margin-left: 4vw;
     margin-right: 4vw;
 }
@@ -56,15 +63,13 @@
 }
 
 .necompletat:not(:placeholder-shown) {
-    background-color: lightgrey
+    background-color: rgb(186, 236, 186);
 }
 
 .completat {
     transition: transform .9s cubic-bezier(.22, 1, .36, 1);
     transform-style: preserve-3d;
     transform: rotateY(180deg);
-    background-color: Pink;
-    box-shadow: inset 0px 0px 0px lightgrey;
 }
 
 .submitbutton {
